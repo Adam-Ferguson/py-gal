@@ -32,6 +32,10 @@ py-gal is a Python-based image gallery web application built using Flask. It all
 - /random: Redirects to a random image from your image collection.
 - /search: Search for images by filename and view the search results.
 
+## Media
+
+![image](https://github.com/Prank0/py-gal/assets/39503326/f6eff3e3-3871-4d8c-8f56-b25d558703b7)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
