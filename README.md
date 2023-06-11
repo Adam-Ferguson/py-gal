@@ -35,6 +35,7 @@ py-gal is a Python-based image gallery web application built using Flask. It all
 ## Media
 
 ![image](https://github.com/Prank0/py-gal/assets/39503326/f6eff3e3-3871-4d8c-8f56-b25d558703b7)
+![image](https://github.com/Prank0/py-gal/assets/39503326/c9bc932c-4186-4cdf-acdf-048f8d608cf2)
 
 ## License
 
