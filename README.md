@@ -20,8 +20,8 @@ py-gal is a Python-based image gallery web application built using Flask. It all
 
 1. Clone the repository: `git clone https://github.com/prank0/py-gal.git`
 2. Install the required packages: `pip install -r requirements.txt`
-3. Update the image folder path in `app.py` to point to your image directory.
-4. Run the application: `python app.py`
+3. Update the image folder path in `py-gal.py` to point to your image directory.
+4. Run the application: `python py-gal.py`
 5. Open your web browser and navigate to `http://localhost:5000` to access the image gallery.
 
 ## Usage
