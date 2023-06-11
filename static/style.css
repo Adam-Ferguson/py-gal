@@ -1,0 +1,144 @@
+/* Custom CSS */
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  padding-top: 70px; /* Add padding to the top of the body to accommodate the navbar */
+  margin-bottom: 100px; /* Increase margin-bottom to create more space for the footer */
+}
+
+.custom-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.custom-content {
+  font-size: 16px;
+  color: #666;
+}
+
+.custom-btn {
+  background-color: #FF7F50;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.custom-btn:hover {
+  background-color: #E63E00;
+  color: #fff;
+}
+
+.custom-navbar {
+  background-color: #FF7F50;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.custom-navbar .navbar-brand {
+  color: #fff;
+  font-size: 24px;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.custom-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 200; /* Increase z-index to ensure the footer appears above the content */
+}
+
+.custom-footer p {
+  margin-bottom: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .custom-heading {
+    font-size: 20px;
+  }
+
+  .custom-content {
+    font-size: 14px;
+  }
+
+  .custom-btn {
+    font-size: 16px;
+  }
+}
+
+/* Custom CSS for the improved image gallery */
+.gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery-row {
+  column-count: 4;
+  column-gap: 10px;
+}
+
+.gallery-item {
+  break-inside: avoid;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.image-filename {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.previous {
+  order: 1;
+}
+
+.next {
+  order: 3;
+}
+
+.page-link {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  color: #333;
+}
+
+.page-link:hover {
+  background-color: #f5f5f5;
+}
