@@ -5,13 +5,14 @@ from PIL import Image
 
 app = Flask(__name__)
 
+image_folder = "D:/pepe/"
+
 @app.route("/")
 def index():
     return render_template("index.html")
 
 @app.route("/gallery")
 def gallery():
-    image_folder = "D:/pepe/"
     images_per_page = 50
     page = int(request.args.get("page", 1))
 
@@ -30,7 +31,6 @@ def gallery():
 
 @app.route("/view/<filename>")
 def view_image(filename):
-    image_folder = "D:/pepe/"
     image_path = os.path.join(image_folder, filename)
     web_url = f"/view/{filename}"
 
@@ -55,12 +55,10 @@ def random_image():
 
 @app.route("/image/<filename>")
 def get_image(filename):
-    image_folder = "D:/pepe/"
     return send_from_directory(image_folder, filename)
 
 @app.route("/search")
 def search():
-    image_folder = "D:/pepe/"
     search_query = request.args.get("q", "").lower()
 
     images = []
